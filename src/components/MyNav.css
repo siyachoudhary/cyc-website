@@ -3,7 +3,7 @@
   padding: 3vh 0 3vh 0;
   z-index: 5;
   position: absolute;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 
 .container { max-width: 100vw; }
@@ -30,17 +30,18 @@
 
 .navbar-brand img {
 
-  position: fixed;
+  /* position: fixed;
   top: 0vh;
-  left: 2.5vh;
-  width: calc(8vh + 1vw);
-  height: calc(8vh + 1vw);
+  left: 2.5vh; */
+  margin-left: 2.5vh;
+  width: calc(7vh + 1vw);
+  height: calc(7vh + 1vw);
   z-index: 6;
-
+/* 
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; */
     
 }
 
@@ -57,7 +58,7 @@
 
   #responsive-navbar-nav {
 
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(213, 213, 213, 0.5);
     backdrop-filter: blur(5px);
     position: fixed;
     top: 0;
@@ -124,7 +125,7 @@
 
 }
   
-.animated-icon2 span { background: #e3f2fd; }
+.animated-icon2 span { background: #000000; }
 
 .animated-icon2 span:nth-child(1) { top: 0px; }
   
