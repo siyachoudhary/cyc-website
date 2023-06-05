@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { MyNav } from './components/MyNav';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import {HomePage} from "./screens/HomePage"
 import {About} from "./screens/About"
 import {Apps} from "./screens/Apps"
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <MyNav/>
-      <BrowserRouter>
+      <HashRouter>
             <Routes>
                 <Route path='/cyc_website/' element={<HomePage/>}></Route>
                 <Route path='/cyc_website/about' element={<About/>}></Route>
@@ -24,7 +24,7 @@ function App() {
                 <Route path='/cyc_website/donate' element={<Donate/>}></Route>
 
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
     </div>
   );
 }
