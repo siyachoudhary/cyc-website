@@ -1,6 +1,7 @@
 #mainHome{
     background-color: rgb(31, 31, 145);
     height: 100vh;
-    padding: 50vh;
+    padding-top: 50vh;
+    padding-bottom: 50vh;
     color: white;
 }
