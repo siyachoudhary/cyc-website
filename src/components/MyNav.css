@@ -2,7 +2,7 @@
 
   padding: 3vh 0 3vh 0;
   z-index: 5;
-  position: absolute;
+  position: fixed;
   /* background-color: aliceblue; */
 }
 
@@ -46,6 +46,23 @@
 }
 
 @media screen and (max-width: 991px) {
+
+  .navbar-brand img {
+
+    position: fixed;
+    top: 1.25vh;
+    left: .25vh;
+    margin-left: 2.5vh;
+    width: calc(7vh + 1vw);
+    height: calc(7vh + 1vw);
+    z-index: 6;
+  /* 
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; */
+      
+  }
 
   .navItem {
 
