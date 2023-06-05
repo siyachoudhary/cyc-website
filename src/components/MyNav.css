@@ -15,7 +15,15 @@
   font-size: 2vh;
   text-align: center;
   font-family: var(--norm);
+  color: #a5a5a5;
 
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-link:hover{
+  color: #4f4f4f;
 }
 
 .toggleBtn {

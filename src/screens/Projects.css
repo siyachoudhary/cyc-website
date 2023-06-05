@@ -1,6 +1,6 @@
-#mainHome{
+.mainProjects{
     background-color: rgb(31, 31, 145);
-    height: 100vh;
-    padding: 50vh;
+    height: 30vh;
+    padding: 15vh;
     color: white;
 }

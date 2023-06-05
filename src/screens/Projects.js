@@ -1,14 +1,17 @@
 import React from 'react'
 import "./AllPages.css"
+import "./Projects.css"
 
 export const Projects = () => {
 
   return (
 
-    <div className='wrappers'>
+    <div>
+        <div className='mainProjects'>
 
-        <h1>CYC Website Projects</h1>
-        
+            <h1>CYC Website Projects</h1>
+            
+        </div>
     </div>
 
   )
