@@ -8,7 +8,7 @@ export const HomePage = () => {
 
     <div className=''>
         <div id='mainHome'>
-            <h1>CYC Website Home</h1>
+            <h1 className='heading'>CODE YOUR CHANCES</h1>
         </div>
     </div>
 

@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 #mainHome{
     /* background-color: rgb(31, 31, 145); */
     background: url("../../public/images/CYC_cover.webp") no-repeat;
@@ -8,10 +11,19 @@
     color: white;
 }
 
+.heading{
+    font-size: 10vh;
+    font-family: 'Secular One', sans-serif;
+}
+
 @media screen and (max-width: 991px) {
     #mainHome{
         height: 50vh;
         padding-top: 25vh;
         padding-bottom: 25vh;
+    }
+
+    .heading{
+        font-size: 5vh;
     }
 }
