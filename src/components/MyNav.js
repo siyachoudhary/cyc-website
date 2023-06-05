@@ -121,12 +121,12 @@ export const MyNav = () => {
 
               <Nav className = "links">
 
-                <CustomLink href = {"/cyc_website/"}>Home</CustomLink>
-                <CustomLink href = {"/cyc_website/about"}>About</CustomLink>
-                <CustomLink href = {"/cyc_website/apps"}>CYC Apps</CustomLink>
-                <CustomLink href = {"/cyc_website/team"}>Team</CustomLink>
-                <CustomLink href = {"/cyc_website/projects"}>Projects</CustomLink>
-                <CustomLink href = {"/cyc_website/donate"}>Donate</CustomLink>
+                <CustomLink href = {"/cyc-website/"}>Home</CustomLink>
+                <CustomLink href = {"/cyc-website/about"}>About</CustomLink>
+                <CustomLink href = {"/cyc-website/apps"}>CYC Apps</CustomLink>
+                <CustomLink href = {"/cyc-website/team"}>Team</CustomLink>
+                <CustomLink href = {"/cyc-website/projects"}>Projects</CustomLink>
+                <CustomLink href = {"/cyc-website/donate"}>Donate</CustomLink>
 
 
               </Nav>
@@ -145,9 +145,8 @@ export const MyNav = () => {
     const path = window.location.pathname
     return (
         path === href ?
-        <Nav.Link href={href} {...props} className={"navItem active"}>{children}</Nav.Link>
-        :
-        <Nav.Link href={href} {...props} className = "navItem">{children}</Nav.Link>
+        <Nav.Link href={href} {...props} className={"active navItem"}>{children}</Nav.Link>:
+            <Nav.Link href={href} {...props} className={"navItem"}>{children}</Nav.Link>
     )
 
   }
