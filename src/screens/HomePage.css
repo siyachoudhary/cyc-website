@@ -1,7 +1,17 @@
 #mainHome{
-    background-color: rgb(31, 31, 145);
+    /* background-color: rgb(31, 31, 145); */
+    background: url("../../public/images/CYC_cover.webp") no-repeat;
+    background-size: cover;
     height: 100vh;
     padding-top: 50vh;
     padding-bottom: 50vh;
     color: white;
+}
+
+@media screen and (max-width: 991px) {
+    #mainHome{
+        height: 50vh;
+        padding-top: 25vh;
+        padding-bottom: 25vh;
+    }
 }

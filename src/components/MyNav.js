@@ -121,7 +121,7 @@ export const MyNav = () => {
 
               <Nav className = "links">
 
-                <CustomLink href = {"/cyc_website/"}>News</CustomLink>
+                <CustomLink href = {"/cyc_website/"}>Home</CustomLink>
                 <CustomLink href = {"/cyc_website/about"}>About</CustomLink>
                 <CustomLink href = {"/cyc_website/apps"}>CYC Apps</CustomLink>
                 <CustomLink href = {"/cyc_website/team"}>Team</CustomLink>
