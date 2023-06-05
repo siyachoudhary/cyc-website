@@ -106,7 +106,7 @@ export const MyNav = () => {
 
           <Container>
 
-          <Navbar.Brand href = "/#/cyc_website/"> <img src = {process.env.PUBLIC_URL + "/images/logo.png"} alt = "CYC" className = "Shadowed Col" /> </Navbar.Brand>
+          <Navbar.Brand href = "/cyc_website/"> <img src = {process.env.PUBLIC_URL + "/images/logo.png"} alt = "CYC" className = "Shadowed Col" /> </Navbar.Brand>
           {/* <Navbar.Brand href = "/rfw-5k-2023"> <h1>CYC</h1> </Navbar.Brand> */}
 
             <button className = "navbar-toggler second-button toggleBtn" type = "button" data-toggle = "collapse" data-target = "#responsive-navbar-nav"
@@ -121,12 +121,12 @@ export const MyNav = () => {
 
               <Nav className = "links">
 
-                <CustomLink href = {"/#/cyc_website/"}>News</CustomLink>
-                <CustomLink href = {"/#/cyc_website/about"}>About</CustomLink>
-                <CustomLink href = {"/#/cyc_website/apps"}>CYC Apps</CustomLink>
-                <CustomLink href = {"/#/cyc_website/team"}>Team</CustomLink>
-                <CustomLink href = {"/#/cyc_website/projects"}>Projects</CustomLink>
-                <CustomLink href = {"/#/cyc_website/donate"}>Donate</CustomLink>
+                <CustomLink href = {"/cyc_website/"}>News</CustomLink>
+                <CustomLink href = {"/cyc_website/about"}>About</CustomLink>
+                <CustomLink href = {"/cyc_website/apps"}>CYC Apps</CustomLink>
+                <CustomLink href = {"/cyc_website/team"}>Team</CustomLink>
+                <CustomLink href = {"/cyc_website/projects"}>Projects</CustomLink>
+                <CustomLink href = {"/cyc_website/donate"}>Donate</CustomLink>
 
 
               </Nav>

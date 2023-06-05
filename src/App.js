@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <MyNav/>
-      <HashRouter>
+      <BrowserRouter>
             <Routes>
                 <Route path='/cyc_website/' element={<HomePage/>}></Route>
                 <Route path='/cyc_website/about' element={<About/>}></Route>
@@ -24,7 +24,7 @@ function App() {
                 <Route path='/cyc_website/donate' element={<Donate/>}></Route>
 
             </Routes>
-          </HashRouter>
+          </BrowserRouter>
     </div>
   );
 }
