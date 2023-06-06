@@ -11,9 +11,16 @@
     color: white;
 }
 
-.heading{
+.headingMain{
     font-size: 10vh;
     font-family: 'Secular One', sans-serif;
+}
+
+.heading2{
+    font-size: 5vh;
+    font-family: 'Secular One', sans-serif;
+    color: #639BCB;
+    margin-top: 5vh;
 }
 
 @media screen and (max-width: 991px) {
@@ -23,7 +30,7 @@
         padding-bottom: 25vh;
     }
 
-    .heading{
-        font-size: 5vh;
+    .headingMain{
+        font-size: 7vh;
     }
 }

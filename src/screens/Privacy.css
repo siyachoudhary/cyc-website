@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.heading{
+    font-family: 'Secular One', sans-serif;
+    font-size: 7vh;
+    color: #639BCB;
+    margin-top: 20vh;
+}
+
+.details{
+    color: #393939;
+    font-size: 2vh;
+    text-align: left;
+    margin-left: 45vh;
+    margin-right: 45vh;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 991px) {
+
+    .details{
+        margin: 5vh;
+    }
+}
