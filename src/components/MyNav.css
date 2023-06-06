@@ -1,5 +1,6 @@
-.myNavbar {
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
+.myNavbar {
   padding: 1.5vh 0 1.5vh 0;
   z-index: 5;
   position: fixed;
@@ -10,21 +11,22 @@
 .container { max-width: 100vw; }
 
 .navItem {
-
   margin-left: 2vh;
   margin-right: 2vh;
   font-size: 2vh;
   text-align: center;
-  font-family: var(--norm);
+  font-family: 'Secular One', sans-serif;
   color: #b8b8b8;
-
+  transition: all .3s ease-in-out;
 }
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
   color: rgb(255, 255, 255);
 }
 
 .navbar-nav .nav-link:hover{
   color: #d5d5d5;
+  scale: 1.1;
 }
 
 .toggleBtn {
@@ -106,11 +108,12 @@
 
     height: auto !important;
     opacity: 0;
+    visibility: hidden;
     transition: all 0.2s ease;
 
   }
 
-  .navbar-collapse.show { opacity: 1; }
+  .navbar-collapse.show { opacity: 1; visibility: visible;}
 
   .container:has(.navbar-collapse):has(.show) .BW { opacity: 0; }
 

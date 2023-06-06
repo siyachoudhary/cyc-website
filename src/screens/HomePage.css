@@ -14,6 +14,7 @@
 .headingMain{
     font-size: 10vh;
     font-family: 'Secular One', sans-serif;
+    letter-spacing: .5vh;
 }
 
 .heading2{
@@ -22,6 +23,7 @@
     color: #639BCB;
     margin-top: 5vh;
     margin-bottom: 5vh;
+    letter-spacing: .2rem;
 }
 
 .newsLogo{
@@ -48,9 +50,11 @@
 
 @media screen and (max-width: 991px) {
     #mainHome{
-        height: 50vh;
+        background: url("../../public/images/cover2.jpeg") no-repeat;
+        background-size: cover;
+        height: 100vh;
         padding-top: 25vh;
-        padding-bottom: 25vh;
+        padding-bottom: 50vh;
     }
 
     .headingMain{
