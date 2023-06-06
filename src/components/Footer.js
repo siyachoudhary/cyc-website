@@ -8,10 +8,11 @@ export const Footer = () => {
 
   return (
 
+    <div>
     <div className='myFooter'>
         <div className='data1 data'>
-            <h1 className='footerText'>Code Your Chances © 2020</h1>
-            <br/>
+            {/* <h1 className='footerText'>Code Your Chances © 2020</h1>
+            <br/> */}
             <a href='https://www.guidestar.org/profile/84-4777706' target='blank'><img src = {process.env.PUBLIC_URL + "/images/guideStar.svg"} alt = "CYC" className = "guideStar" /></a>
             <br/><br/>
             <h1 className='footerText'>Code Your Chances is a registered 501(c)(3)</h1>
@@ -29,11 +30,15 @@ export const Footer = () => {
             </div>
             <br></br>
             <a href="mailto: info@codeyourchances.com" target='blank' className='footerText'>info@codeyourchances.com</a>
-            <br/><br/><br/><br/>
+            <br/><br/><br/>
             <a href="/cyc-website/privacy" className='footerText2'>Privacy Policy</a>
 
         </div>
     </div>
+    <div className='bottom'>
+            <h1 className='footerTextMain'>Code Your Chances © 2020</h1>
+        </div>
+        </div>
 
   )
 }

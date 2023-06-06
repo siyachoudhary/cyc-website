@@ -41,19 +41,17 @@
 
 .navbar-brand img {
 
-  /* position: fixed;
-  top: 0vh;
-  left: 2.5vh; */
   margin-left: 2.5vh;
   width: calc(7vh + 1vw);
   height: calc(7vh + 1vw);
   z-index: 6;
-/* 
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; */
+  transition: all 0.2s ease-in-out;
     
+}
+
+.navbar-brand img:hover {
+  opacity: .5;
+  scale: 1.1;
 }
 
 @media screen and (max-width: 991px) {

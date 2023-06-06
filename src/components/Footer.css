@@ -7,10 +7,29 @@
     padding-top: 5vh;
 }
 
+.bottom{
+    background-color: rgb(29, 31, 32, .7);
+    height: auto;
+    display: flex;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    justify-content: right;
+}
+
 .footerText{
     font-size: 2.5vh;
     color: #ffffff;
     text-decoration: none;
+    font-weight: 300;
+}
+
+.footerTextMain{
+    font-size: 2vh;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 200;
 }
 
 .footerText2{
@@ -62,6 +81,10 @@
 }
 
 @media screen and (max-width: 991px) {
+    .bottom{
+        justify-content: center;
+    }
+
     .myFooter{
         display: inline-block;
         height: auto;
