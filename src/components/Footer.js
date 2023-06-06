@@ -31,12 +31,12 @@ export const Footer = () => {
             <br></br>
             <a href="mailto: info@codeyourchances.com" target='blank' className='footerText'>info@codeyourchances.com</a>
             <br/><br/><br/>
-            <a href="/cyc-website/privacy" className='footerText2'>Privacy Policy</a>
+            <a href="/cyc_website/privacy" className='footerText2'>Privacy Policy</a>
 
         </div>
     </div>
     <div className='bottom'>
-            <h1 className='footerTextMain'>Code Your Chances © 2020</h1>
+            <h1 className='footerTextMain'>Code Your Chances © 2023</h1>
         </div>
         </div>
 
