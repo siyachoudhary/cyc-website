@@ -17,7 +17,8 @@ function App() {
   return (
     <div className="App">
       <MyNav/>
-      <BrowserRouter>
+          <BrowserRouter>
+
             <Routes>
                 <Route path='/cyc-website/' element={<HomePage/>}></Route>
                 <Route path='/cyc-website/about' element={<About/>}></Route>
@@ -28,7 +29,7 @@ function App() {
 
                 <Route path='/cyc-website/privacy' element={<Privacy/>}></Route>
             </Routes>
-          </BrowserRouter>
+            </BrowserRouter>
           <Footer/>
     </div>
   );

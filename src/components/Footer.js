@@ -18,7 +18,7 @@ export const Footer = () => {
             <h1 className='footerText'>Code Your Chances is a registered 501(c)(3)</h1>
         </div>
         <div className='data'>
-            <a href='/cyc_website/'><img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" className='logo'></img></a>
+            <a href='/cyc-website/'><img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" className='logo'></img></a>
         </div>
         <div className='data'>
             <h1 className='footerText'>Follow Us</h1>
@@ -31,7 +31,7 @@ export const Footer = () => {
             <br></br>
             <a href="mailto: info@codeyourchances.com" target='blank' className='footerText'>info@codeyourchances.com</a>
             <br/><br/><br/>
-            <a href="/cyc_website/privacy" className='footerText2'>Privacy Policy</a>
+            <a href="/cyc-website/privacy" className='footerText2'>Privacy Policy</a>
 
         </div>
     </div>
