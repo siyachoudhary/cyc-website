@@ -1,21 +1,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=Secular+One&display=swap');
 
 #mainHome{
-    background: url("../../public/images/CYC_cover.webp") no-repeat;
+    background: url("../../public/images/cover1.png") no-repeat;
     background-size: cover;
     height: 100vh;
-    padding-top: 25vh;
+    padding-top: 30vh;
     padding-bottom: 25vh;
     color: white;
     -webkit-filter: grayscale(1);
 }
 
 .headingMain{
-    font-size: 25vh;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: .5vh;
+    font-size: 15vh;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1vh;
 }
+
+.headingSecondary{
+    font-size: 5vh;
+    font-family: 'Maven Pro', sans-serif;
+    letter-spacing: 1vh;
+}   
 
 .heading2{
     font-size: 5vh;
@@ -53,11 +60,19 @@
         background: url("../../public/images/cover2.jpeg") no-repeat;
         background-size: cover;
         height: 100vh;
-        padding-top: 30vh;
-        padding-bottom: 50vh;
+        padding-top: 15vh;
     }
 
     .headingMain{
-        font-size: 9vh;
+        font-size: 8vh;
+        text-align: left;
+        margin: 3vh;
     }
+
+
+    .headingSecondary{
+        font-size: 3vh;
+        text-align: left;
+        margin: 3vh;
+    }   
 }

@@ -18,6 +18,11 @@ export const HomePage = () => {
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="300"
             >CODE YOUR CHANCES</h1>
+            <h2 className='headingSecondary' 
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="300">INSPIRING A NEW GENERATION OF LEADERS
+            </h2>
         </div>
         
         <h2 className='heading2'>AS SEEN ON</h2>
