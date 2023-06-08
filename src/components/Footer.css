@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&family=Secular+One&display=swap');
+
 .myFooter{
     background-color: rgb(189, 189, 189);
     height: auto;
@@ -5,6 +7,8 @@
     justify-content: space-evenly;
     padding-bottom: 5vh;
     padding-top: 5vh;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 100;
 }
 
 .bottom{
@@ -16,6 +20,8 @@
     padding-left: 5vh;
     padding-right: 5vh;
     justify-content: right;
+    font-family: 'Maven Pro', sans-serif;
+
 }
 
 .footerText{

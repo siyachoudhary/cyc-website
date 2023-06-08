@@ -19,14 +19,14 @@ function App() {
       <MyNav/>
       <BrowserRouter>
             <Routes>
-                <Route path='/cyc_website/' element={<HomePage/>}></Route>
-                <Route path='/cyc_website/about' element={<About/>}></Route>
-                <Route path='/cyc_website/apps' element={<Apps/>}></Route>
-                <Route path='/cyc_website/team' element={<Team/>}></Route>
-                <Route path='/cyc_website/projects' element={<Projects/>}></Route>
-                <Route path='/cyc_website/donate' element={<Donate/>}></Route>
+                <Route path='/cyc-website/' element={<HomePage/>}></Route>
+                <Route path='/cyc-website/about' element={<About/>}></Route>
+                <Route path='/cyc-website/apps' element={<Apps/>}></Route>
+                <Route path='/cyc-website/team' element={<Team/>}></Route>
+                <Route path='/cyc-website/projects' element={<Projects/>}></Route>
+                <Route path='/cyc-website/donate' element={<Donate/>}></Route>
 
-                <Route path='/cyc_website/privacy' element={<Privacy/>}></Route>
+                <Route path='/cyc-website/privacy' element={<Privacy/>}></Route>
             </Routes>
           </BrowserRouter>
           <Footer/>
