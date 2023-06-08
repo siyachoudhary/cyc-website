@@ -18,7 +18,7 @@ export const Footer = () => {
             <h1 className='footerText'>Code Your Chances is a registered 501(c)(3)</h1>
         </div>
         <div className='data'>
-            <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" className='logo'></img>
+            <a href='/cyc_website/'><img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" className='logo'></img></a>
         </div>
         <div className='data'>
             <h1 className='footerText'>Follow Us</h1>

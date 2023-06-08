@@ -13,7 +13,11 @@ export const HomePage = () => {
 
     <div className=''>
         <div id='mainHome'>
-            <h1 className='headingMain'>CODE YOUR CHANCES</h1>
+            <h1 className='headingMain' 
+              data-aos="zoom-in"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="300"
+            >CODE YOUR CHANCES</h1>
         </div>
         <h2 className='heading2'>AS SEEN ON</h2>
 
