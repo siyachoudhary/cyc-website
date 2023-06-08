@@ -19,6 +19,7 @@ export const HomePage = () => {
               data-aos-duration="300"
             >CODE YOUR CHANCES</h1>
         </div>
+        
         <h2 className='heading2'>AS SEEN ON</h2>
 
         <a href='https://www.cbsnews.com/chicago/video/code-your-chances-hosting-coding-workshop-today-in-lincoln-park/#x' target='blank'  data-aos={"zoom-in-up"}><img src= {process.env.PUBLIC_URL + "/images/CBS.png"} className='newsLogo small'></img></a>

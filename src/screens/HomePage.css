@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 #mainHome{
-    /* background-color: rgb(31, 31, 145); */
     background: url("../../public/images/CYC_cover.webp") no-repeat;
     background-size: cover;
     height: 100vh;
-    padding-top: 50vh;
-    padding-bottom: 50vh;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
     color: white;
+    -webkit-filter: grayscale(1);
 }
 
 .headingMain{
-    font-size: 10vh;
-    font-family: 'Secular One', sans-serif;
+    font-size: 25vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: .5vh;
 }
 
@@ -53,11 +53,11 @@
         background: url("../../public/images/cover2.jpeg") no-repeat;
         background-size: cover;
         height: 100vh;
-        padding-top: 25vh;
+        padding-top: 30vh;
         padding-bottom: 50vh;
     }
 
     .headingMain{
-        font-size: 7vh;
+        font-size: 9vh;
     }
 }
