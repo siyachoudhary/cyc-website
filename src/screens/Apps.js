@@ -9,7 +9,7 @@ export const Apps = () => {
     <div>
         <div className='mainApps'>
 
-            <h1>CYC Website Apps</h1>
+            <h1 className='headingAbout'>CYC WEBSITE APPS</h1>
             
         </div>
     </div>

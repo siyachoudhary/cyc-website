@@ -1,7 +1,32 @@
 .mainAbout{
     background-color: rgb(31, 31, 145);
-    height: 40vh;
-    padding-top: 25vh;
+    height: 30vh;
+    padding-top: 15vh;
     padding-bottom:15vh;
     color: white;
+    margin-bottom: 5vh;
+}
+
+.headingAbout{
+    font-size: 5vh;
+    font-family: 'Secular One', sans-serif;
+    color: #ffffff;
+    letter-spacing: .2rem;
+}
+
+@media screen and (max-width: 991px) {
+    .headingAbout{
+        font-size: 3vh;
+        margin: 1vh;
+    }
+
+    .mainAbout{
+        background-color: rgb(31, 31, 145);
+        height: 25vh;
+        padding-top: 12.5vh;
+        padding-bottom:12.5vh;
+        color: white;
+        margin-bottom: 5vh;
+        margin-bottom: 2vh;
+    }
 }

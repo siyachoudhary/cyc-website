@@ -8,7 +8,7 @@ export const Team = () => {
     <div>
         <div className='mainTeam'>
 
-            <h1>CYC Website Team</h1>
+            <h1 className='headingAbout'>THE CODE YOUR CHANCES TEAM</h1>
             
         </div>
     </div>

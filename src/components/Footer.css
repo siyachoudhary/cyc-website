@@ -5,8 +5,8 @@
     height: auto;
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
+    /* padding-bottom: 5vh;
+    padding-top: 5vh; */
     font-family: 'Maven Pro', sans-serif;
     font-weight: 100;
 }

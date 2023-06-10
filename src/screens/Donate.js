@@ -9,7 +9,7 @@ export const Donate = () => {
     <div>
         <div className='mainDonate'>
 
-            <h1>CYC Website Donate</h1>
+            <h1 className='headingAbout'>DONATE TO CODE YOUR CHANCES</h1>
             
         </div>
     </div>
