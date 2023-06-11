@@ -14,10 +14,39 @@
     letter-spacing: .2rem;
 }
 
+.aboutInfo{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.aboutImg{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.basicInfoAbout{
+    margin-right: 3vh;
+}
+
+.whatIsCYC{
+    font-family: 'Secular One', sans-serif;
+    color: #F38C1C;
+}
+
+
 @media screen and (max-width: 991px) {
     .headingAbout{
         font-size: 3vh;
         margin: 1vh;
+    }
+
+    .basicInfoAbout{
+        margin-right: 0vh;
     }
 
     .mainAbout{
@@ -28,5 +57,23 @@
         color: white;
         margin-bottom: 5vh;
         margin-bottom: 2vh;
+    }
+
+    .basicPara{
+        margin-left: 2vh;
+        margin-right: 2vh;
+        margin-bottom: 3vh;
+    }
+
+    .aboutInfo{
+        display: inline-block;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        margin-bottom: 10vh;
+        margin-top: 3vh;
+    }
+    
+    .aboutImg{
+        width: 40vh;
     }
 }
