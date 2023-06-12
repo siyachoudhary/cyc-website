@@ -43,19 +43,19 @@ export const MyNav = () => {
 
   };
 
-  const handleClickOutside = () => {
+  // const handleClickOutside = () => {
 
-    if (window.innerWidth <= 991 && document.getElementById("responsive-navbar-nav").classList.contains("show")) {
+  //   if (window.innerWidth <= 991 && document.getElementById("responsive-navbar-nav").classList.contains("show")) {
 
-      document.getElementById("responsive-navbar-nav").classList.remove("show");
-      document.getElementById("toggle_btn").classList.remove("open")
-      setNavOpen(navOpen => !navOpen)
+  //     document.getElementById("responsive-navbar-nav").classList.remove("show");
+  //     document.getElementById("toggle_btn").classList.remove("open")
+  //     setNavOpen(navOpen => !navOpen)
 
-    }
+  //   }
 
-    setY(window.y);
+  //   setY(window.y);
 
-  };
+  // };
 
   
 
@@ -114,7 +114,7 @@ export const MyNav = () => {
             </button>
             
 
-            <Navbar.Collapse id = "responsive-navbar-nav" className = "navbar-collapse" onClick = {handleClickOutside}>
+            <Navbar.Collapse id = "responsive-navbar-nav" className = "navbar-collapse">
 
               <Nav className = "me-auto" />
 
@@ -124,12 +124,12 @@ export const MyNav = () => {
                 <CustomLink href = {"/cyc-website/about"}>About</CustomLink>
                 <CustomLink href = {"/cyc-website/apps"}>CYC Apps</CustomLink>
                 {/* <CustomLink href = {"/cyc-website/team"}>Team</CustomLink> */}
-                <NavDropdown title="TEAM" id="collasible-nav-dropdown" className={"navItem"}>
-                  <NavDropdown.Item href="/cyc-website/team">TEAM</NavDropdown.Item>
+                <NavDropdown title="Team" id="collasible-nav-dropdown" className={"navItem"} to="/cyc-website/team">
+                  <NavDropdown.Item href="/cyc-website/team">The CYC Team</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/cyc-website/team">YOUTH LEADERSHIP BOARD</NavDropdown.Item>
+                  <NavDropdown.Item href="/cyc-website/team">Youth Leadership Board</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/cyc-website/apply">APPLY</NavDropdown.Item>
+                  <NavDropdown.Item href="/cyc-website/apply">Apply</NavDropdown.Item>
                 </NavDropdown>
                 <CustomLink href = {"/cyc-website/projects"}>Projects</CustomLink>
                 <CustomLink href = {"/cyc-website/donate"}>Donate</CustomLink>
