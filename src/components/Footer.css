@@ -21,7 +21,6 @@
     padding-right: 5vh;
     justify-content: right;
     font-family: 'Maven Pro', sans-serif;
-
 }
 
 .footerText{
@@ -53,6 +52,11 @@
     padding: 5vh;   
 }
 
+.socials{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
 .socials a{
     color: #ffffff;
     margin: 2vh;
@@ -82,6 +86,21 @@
     transition: .5s ease-in-out;
 }
 
+.guideStar{
+    width: 20vh;
+    height: 20vh;
+}
+
+.Shadowed{
+    width: 10vh;
+    height: 10vh;
+}
+
+.cycEmail{
+    padding-bottom: .5vh;
+}
+
+
 @media screen and (max-width: 991px) {
     .bottom{
         justify-content: center;
@@ -91,19 +110,45 @@
         display: inline-block;
         height: auto;
         width: 100%;
+        padding-top: 3vh;
     }
 
     .data1{
         text-align: center;
     }
-}
 
-.guideStar{
-    width: 20vh;
-    height: 20vh;
-}
+    .data{
+        width: 100%;
+        padding-top: 0vh;
+        padding-bottom: 2vh;
+    }
 
-.Shadowed{
-    width: 10vh;
-    height: 10vh;
+    .guideStar{
+        height: 15vh;
+    }
+
+    .logo{
+        height: 10vh;
+    }
+    
+    .footerText{
+        font-size: 1.8vh;
+    }
+
+    .footerText2{
+        font-size: 1.75vh;
+    }
+
+    .footerTextMain{
+        font-size: 1.5vh;
+    }
+
+    .socials{
+        margin: 1vh;
+    }
+
+    .cycEmail{
+        padding-bottom: .1vh;
+    }
+    
 }

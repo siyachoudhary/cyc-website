@@ -1,3 +1,7 @@
+body{
+    max-width: 100vw;
+}
+
 .mainAbout{
     background-color: rgb(31, 31, 145);
     height: 30vh;
@@ -24,7 +28,7 @@
 .aboutInfoSmall{
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 2vh;
+    margin-top: 3vh;
 }
 
 .aboutImg{
@@ -51,7 +55,7 @@
 .NYTimes{
     display: inline-block;
     background-color: #ececec;
-    padding: 5vh;
+    padding: 3vh;
     margin-top: 2vh;
 }
 
@@ -85,8 +89,6 @@
     }
 
     .basicPara{
-        margin-left: 2vh;
-        margin-right: 2vh;
         margin-bottom: 3vh;
     }
 
@@ -94,17 +96,21 @@
         display: inline-block;
         margin-left: 2vh;
         margin-right: 2vh;
-        margin-bottom: 5vh;
+        margin-bottom: 7vh;
         margin-top: 3vh;
     }
 
     .aboutInfoSmall{
         margin-left: 2vh;
         margin-right: 2vh;
-        margin-top: 2vh;
+        margin-top: 3vh;
     }
     
     .aboutImg{
         width: 40vh;
+    }
+
+    .NYTimes{
+        padding: 3vh;
     }
 }

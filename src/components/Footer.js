@@ -22,17 +22,14 @@ export const Footer = () => {
         </div>
         <div className='data'>
             <h1 className='footerText'>Follow Us</h1>
-            <br/>
             <div className='socials'>
                 <a href='https://www.instagram.com/codeyourchances/' target='blank'><FontAwesomeIcon icon={faInstagram} className='icons insta'/></a>
                 <a href='https://www.facebook.com/codeyourchances1/' target='blank'><FontAwesomeIcon icon={faFacebook} className='icons facebook'/></a>
                 <a href="mailto: info@codeyourchances.com" target='blank'><FontAwesomeIcon icon={faEnvelope} className='icons email'/></a>
             </div>
-            <br></br>
-            <a href="mailto: info@codeyourchances.com" target='blank' className='footerText'>info@codeyourchances.com</a>
-            <br/><br/><br/>
+            <div className='cycEmail'><a href="mailto: info@codeyourchances.com" target='blank' className='footerText'>info@codeyourchances.com</a></div>
+            <br/>
             <a href="/cyc-website/privacy" className='footerText2'>Privacy Policy</a>
-
         </div>
     </div>
     <div className='bottom'>
