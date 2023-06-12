@@ -13,9 +13,15 @@ export const About = () => {
   return (
 
     <div className=''>
-      <div className='mainAbout'>
+      <div className='cycVideo'>
+            <video width="100%" height="100%" autoPlay="true" controls>
+                <source src={process.env.PUBLIC_URL+"/videos/workshopVideo.mp4"} type="video/mp4" />
+            </video>
+        </div>
+      {/* <div className='mainAbout'>
         <h2 className='headingAbout'>INSPIRING A NEW GENERATION OF LEADERS</h2>
-      </div>
+      </div> */}
+        <h2 className='headingBlue topAboutHeading'>INSPIRING A NEW GENERATION OF LEADERS</h2>
         <YoutubeEmbed embedId="PWjksZ0JkBM"/>
         <div className='aboutInfo'>
           <div className='basicInfoAbout' data-AOS="fade-up">
@@ -41,6 +47,7 @@ export const About = () => {
           </div>
         </div>
 
+        <div className='button-53' data-AOS="fade-up"><a href="mailto: info@codeyourchances.com?subject=I would like to know more!" target='blank' className='scheduleBtnTxt'>SCHEDULE A WORKSHOP WITH US TODAY</a></div>
     </div>
 
   )

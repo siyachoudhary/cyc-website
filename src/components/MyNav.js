@@ -105,9 +105,7 @@ export const MyNav = () => {
         <Navbar collapseOnSelect expand = "lg" variant = "light" className = "myNavbar fixed-top" >
 
           <Container>
-
           <Navbar.Brand href = "/cyc-website/"> <img src = {process.env.PUBLIC_URL + "/images/logo.png"} alt = "CYC" className = "Shadowed Col" /> </Navbar.Brand>
-          {/* <Navbar.Brand href = "/rfw-5k-2023"> <h1>CYC</h1> </Navbar.Brand> */}
 
             <button className = "navbar-toggler second-button toggleBtn" type = "button" data-toggle = "collapse" data-target = "#responsive-navbar-nav"
               aria-controls = "responsive-navbar-nav" aria-expanded = "false" aria-label = "Toggle navigation" onClick = {toggleNav}>
