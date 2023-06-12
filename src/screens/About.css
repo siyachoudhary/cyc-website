@@ -21,6 +21,11 @@
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
+.aboutInfoSmall{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2vh;
+}
 
 .aboutImg{
     margin-top: auto;
@@ -38,6 +43,26 @@
     color: #F38C1C;
 }
 
+.headingBlue{
+    color: #639BCB;
+    font-family: 'Secular One', sans-serif;
+}
+
+.NYTimes{
+    display: inline-block;
+    background-color: #ececec;
+    padding: 5vh;
+    margin-top: 2vh;
+}
+
+.NYTimesSign{
+    text-align: right;
+}
+
+.NYTimesData{
+    text-align: left;
+    font-weight: 700;
+}
 
 @media screen and (max-width: 991px) {
     .headingAbout{
@@ -69,8 +94,14 @@
         display: inline-block;
         margin-left: 2vh;
         margin-right: 2vh;
-        margin-bottom: 10vh;
+        margin-bottom: 5vh;
         margin-top: 3vh;
+    }
+
+    .aboutInfoSmall{
+        margin-left: 2vh;
+        margin-right: 2vh;
+        margin-top: 2vh;
     }
     
     .aboutImg{
