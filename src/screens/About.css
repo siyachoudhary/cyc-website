@@ -4,7 +4,6 @@ body{
 
 .cycVideo{
     background-color: #000000;
-    opacity: .8;
 }
 
 .topAboutHeading{
@@ -211,20 +210,23 @@ body{
         padding: 3vh;
     }
 
+    .cycHelpText{
+        margin-right: 0vh;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
 
-.cycHelpText{
-    margin-right: 0vh;
-    text-align: center;
-    margin-bottom: 3vh;
-}
+    .workshopStats{
+        width: 100%;
+        color: #639BCB;
+        border-style: solid;
+        border-width: 5px;
+        padding: 2vh;
+        font-weight: 700;
+    }
 
-.workshopStats{
-    width: 100%;
-    color: #639BCB;
-    border-style: solid;
-    border-width: 5px;
-    padding: 2vh;
-    font-weight: 700;
-}
-
+    .topAboutHeading{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
 }

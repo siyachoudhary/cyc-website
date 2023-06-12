@@ -52,6 +52,10 @@
     
 }
 
+.nav-link{
+  color: #e6e6e6;
+}
+
 .navbar-brand img:hover {
   opacity: .5;
   scale: 1.1;

@@ -7,6 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 import { useState, useEffect, useRef } from "react";
+import { NavDropdown } from "react-bootstrap";
 
 export const MyNav = () => {
   
@@ -122,7 +123,14 @@ export const MyNav = () => {
                 <CustomLink href = {"/cyc-website/"}>Home</CustomLink>
                 <CustomLink href = {"/cyc-website/about"}>About</CustomLink>
                 <CustomLink href = {"/cyc-website/apps"}>CYC Apps</CustomLink>
-                <CustomLink href = {"/cyc-website/team"}>Team</CustomLink>
+                {/* <CustomLink href = {"/cyc-website/team"}>Team</CustomLink> */}
+                <NavDropdown title="TEAM" id="collasible-nav-dropdown" className={"navItem"}>
+                  <NavDropdown.Item href="/cyc-website/team">TEAM</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="/cyc-website/team">YOUTH LEADERSHIP BOARD</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="/cyc-website/apply">APPLY</NavDropdown.Item>
+                </NavDropdown>
                 <CustomLink href = {"/cyc-website/projects"}>Projects</CustomLink>
                 <CustomLink href = {"/cyc-website/donate"}>Donate</CustomLink>
 
