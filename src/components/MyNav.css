@@ -12,7 +12,7 @@
 
 .navbar-nav .dropdown-menu{
   transition: all 0.35s ease-in-out;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 0;
   border: none;
   width: fit-content;
@@ -23,12 +23,17 @@
 
 .dropdown-item{
   font-size: 1.5vh;
-  color: #c9c9c9;
+  color: #ffffff;
   transition: all 0.35s ease-in-out;
 }
 
+.nav-link:focus, .nav-link:hover {
+  color: white
+}
+
 .dropdown-item:hover{
-  color: #626262;
+  scale: 1.1;
+  color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
 }
 

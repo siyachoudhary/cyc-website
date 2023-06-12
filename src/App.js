@@ -11,6 +11,7 @@ import {Team} from "./screens/Team"
 import {Projects} from "./screens/Projects"
 import {Donate} from "./screens/Donate"
 import { Privacy } from './screens/Privacy';
+import { TeamMember } from './screens/TeamMember';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                 <Route path='/cyc-website/team/' element={<Team/>}></Route>
                 <Route path='/cyc-website/projects/' element={<Projects/>}></Route>
                 <Route path='/cyc-website/donate/' element={<Donate/>}></Route>
+                <Route path='/cyc-website/teamMember/' element={<TeamMember/>}></Route>
 
                 <Route path='/cyc-website/privacy/' element={<Privacy/>}></Route>
             </Routes>

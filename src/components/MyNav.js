@@ -127,7 +127,7 @@ export const MyNav = () => {
                 <NavDropdown title="Team" id="collasible-nav-dropdown" className={"navItem"} to="/cyc-website/team">
                   <NavDropdown.Item href="/cyc-website/team">The CYC Team</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/cyc-website/team">Youth Leadership Board</NavDropdown.Item>
+                  <NavDropdown.Item href="/cyc-website/team#youthBoard">Youth Leadership Board</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="/cyc-website/apply">Apply</NavDropdown.Item>
                 </NavDropdown>

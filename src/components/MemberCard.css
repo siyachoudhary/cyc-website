@@ -4,7 +4,8 @@
     background-color: white;
     padding: .75vh;
     filter: drop-shadow(0px 5px 2px rgb(0, 0, 0, 0.2));
-    /* height: 50vh */
+    height: 100%;
+    position: relative;
 }   
 
 .userCard h1{
@@ -15,21 +16,27 @@
     margin: 2vh;
     margin-left: auto;
     margin-right: auto;
+    text-transform: capitalize;
 }
 
 .userCard img{
     filter: drop-shadow(0px 3px 2px rgb(0, 0, 0, 0.5));
 }
 
-@media screen and (max-width: 991) {
+@media screen and (max-width: 991px) {
     .userCard{
         margin-top: 3vw;
         align-items: center;
     }  
     
     .userCard h1{
-        font-size: 15vw;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 600;
+        font-size: 5.5vw;
+        letter-spacing: 1vh;
+        margin: 2vh;
         margin-left: auto;
         margin-right: auto;
+        text-transform: capitalize;
     }
 }
