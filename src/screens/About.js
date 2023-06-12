@@ -19,7 +19,7 @@ export const About = () => {
         <YoutubeEmbed embedId="PWjksZ0JkBM"/>
         <div className='aboutInfo'>
           <div className='basicInfoAbout' data-AOS="fade-up">
-            <h3 className='whatIsCYC'>WHAT IS CYC?</h3>
+            <h3 className='headingOrange'>WHAT IS CYC?</h3>
             <p className='basicPara'>
             Code Your Chances (CYC) is a nonprofit organization that introduces young girls to the creative uses of computer science and how they can apply their unique creativity to tech. Our mission is to inspire a new generation of diverse leaders in computer science by focusing on how computer science is used in creative industries, such as film production, game development, AR, VR, and creative uses of AI. CYC works with communities that have limited access to tech education.</p>
           </div>
@@ -32,6 +32,15 @@ export const About = () => {
           <p className='NYTimesData'>"Many artificial intelligence technologies, like face-recognition services and conversational systems, are designed to learn from large amounts of data, such as thousands of photos of faces. The biases of researchers can easily be introduced into the technology, reinforcing the importance of diversity among the people working on it."</p>
           <p className='NYTimesSign'>~ Cade Metz, The New York Times</p>
         </div>
+
+        <h2 className='headingOrange'>WHAT CYC IS DOING TO HELP</h2>
+        <div className='aboutInfo' data-AOS="fade-up">
+          <p className='cycHelpText'>CYC generates enthusiasm for computer science through interactive workshops that focus on the many creative uses of code. Girls learn firsthand how computer science is used in movies, video games, virtual reality, augmented reality and more. Our hands-on projects aim to build confidence and show our students that anyone can learn to code!</p>
+          <div className='workshopStats'>
+            On average, girls show a 72.3% improvement on our knowledge survey after a workshop!
+          </div>
+        </div>
+
     </div>
 
   )
