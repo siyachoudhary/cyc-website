@@ -153,8 +153,8 @@ export const MyNav = () => {
 
                   <NavDropdown.Item href="/cyc-website/team">The CYC Team</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="/cyc-website/team#youthBoard" smooth>Youth Leadership Board</NavDropdown.Item>
-                  <NavDropdown.Divider />
+                  {/* <NavDropdown.Item href="/cyc-website/team#youthBoard" smooth>Youth Leadership Board</NavDropdown.Item>
+                  <NavDropdown.Divider /> */}
                   <NavDropdown.Item href="/cyc-website/apply">Apply</NavDropdown.Item>
                 </NavDropdown>
                 <CustomLink href = {"/cyc-website/projects"}>Projects</CustomLink>

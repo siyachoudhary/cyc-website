@@ -1,3 +1,18 @@
+.skipToYLB{
+    width: 25vh;
+    margin: 0;
+    position: fixed;
+    z-index: 20;
+    bottom: 2vh;
+    right: 2vh;
+    opacity: .8;
+}
+
+.skipToYLB a{
+    font-size: 1.5vh;
+    line-height: 2vh;
+}
+
 .mainTeam{
     background-color: rgb(31, 31, 145);
     height: 30vh;
@@ -91,6 +106,19 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .skipToYLB{
+        width: 15vh;
+        bottom: 1vh;
+        right: 1vh;
+    }
+
+    .skipToYLB a{
+        font-size: 1.25vh;
+        letter-spacing: .5vh;
+        line-height: 2vh;
+    }
+    
+
     .CYCMainBoard{
         padding-top: 0vh;
         padding-bottom:5vh;

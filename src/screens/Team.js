@@ -1,20 +1,44 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef,  useState, useMemo } from 'react'
 import "./AllPages.css"
 import "./Team.css"
 import MemberCard from "../components/MemberCard.js"
 import AOS from 'aos'
 import "aos/dist/aos.css"
+import { useNavigate } from "react-router-dom";
 
 export const Team = () => {
   useEffect(()=>{
     AOS.init({duration: 500, easing:"ease-in-out"});
   }, []);
 
+  const ref = useRef(null);
+
+  const navigate = useNavigate();
+
+  const isInViewport = useIsInViewport(ref);
+
+  useEffect(() => {
+    // if (document.activeElement === ref.current) {
+    //   console.log('element has focus');
+    // } else {
+    //   console.log('element does NOT have focus');
+    // }
+    if(isInViewport){
+      console.log("VISIBLE")
+    }
+  });
+
   return (
     <div>
-        <div className='mainTeam'>
+        <div className='mainTeam' id='mainTeam'>
             <h1 className='headingAbout'>MEET THE TEAM</h1>
         </div>
+
+        {isInViewport?
+          <div className='button-53 skipToYLB' onClick={()=>navigate("/cyc-website/team#mainTeam")}><a href={"/cyc-website/team#mainTeam"} className='scheduleBtnTxt'>CYC TEAM</a></div>
+          :
+          <div className='button-53 skipToYLB' onClick={()=>navigate("/cyc-website/team#youthBoard")}><a href={"/cyc-website/team#youthBoard"} className='scheduleBtnTxt'>YOUTH LEADERSHIP BOARD</a></div>
+        }
 
         <div className='CYCMainBoard'>
           <div className='row'>
@@ -84,7 +108,7 @@ export const Team = () => {
             <h1 className='headingAbout'>MEET THE YOUTH LEADERSHIP BOARD</h1>
         </div>
 
-        <div className='CYCYouthBoard'>
+        <div className='CYCYouthBoard' ref={ref}>
             <p className='aboutYLB'>The CYC Youth Leadership Board is an international team of young leaders in STEM, selected quarterly through a competitive application process. Our youth leaders work alongside our Board of Directors to create and implement new projects while gaining experience working in a nonprofit organization.</p>
         
             <div className='row'>
@@ -149,4 +173,26 @@ Athena is a rising sophomore at Phillips Andover Academy. Passionate about makin
     </div>
 
   )
+}
+
+function useIsInViewport(ref) {
+  const [isIntersecting, setIsIntersecting] = useState(false);
+
+  const observer = useMemo(
+    () =>
+      new IntersectionObserver(([entry]) =>
+        setIsIntersecting(entry.isIntersecting),
+      ),
+    [],
+  );
+
+  useEffect(() => {
+    observer.observe(ref.current);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [ref, observer]);
+
+  return isIntersecting;
 }
