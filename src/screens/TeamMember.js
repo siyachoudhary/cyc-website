@@ -7,6 +7,8 @@ export const TeamMember = () => {
     const navigate = useNavigate();
     const location = useLocation();
 
+    useEffect(() => window.document.scrollingElement?.scrollTo(0, 0), [])
+
     console.log(location.state.memberImg)
   
     return (
