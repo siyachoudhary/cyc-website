@@ -6,12 +6,19 @@
     filter: drop-shadow(0px 5px 2px rgb(0, 0, 0, 0.2));
     height: 100%;
     position: relative;
+    transition: all 0.35s ease-in-out;
+}   
+
+.userCard:hover{
+    cursor:pointer;
+    scale: 1.03;
+    filter: drop-shadow(0px 5px 20px rgb(0, 0, 0, 0.2));
 }   
 
 .userCard h1{
     font-family: 'Maven Pro', sans-serif;
     font-weight: 600;
-    font-size: 1.4vw;
+    font-size: 1.25vw;
     letter-spacing: 1vh;
     margin-top: 2vh;
     margin-left: auto;
@@ -23,10 +30,15 @@
     font-family: 'Maven Pro', sans-serif;
     font-weight: 400;
     font-size: .75vw;
-    letter-spacing: 1vh;
+    letter-spacing: .7vh;
     margin-left: auto;
     margin-right: auto;
     text-transform: uppercase;
+
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
 }
 
 
@@ -50,15 +62,14 @@
         margin-left: auto;
         margin-right: auto;
         text-transform: uppercase;
+        margin-bottom: 5vh;
     }
 
     .userCard p{
-        font-family: 'Maven Pro', sans-serif;
         font-weight: 400;
         font-size: 3vw;
         letter-spacing: 1vh;
-        margin-left: auto;
-        margin-right: auto;
-        text-transform: uppercase;
+        display: inline-block;
+        left: 0;
     }
 }

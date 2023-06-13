@@ -93,9 +93,9 @@
 @media only screen and (max-width: 991px) {
     .CYCMainBoard{
         padding-top: 0vh;
-        padding-bottom:0vh;
+        padding-bottom:5vh;
         background-color: rgb(231, 231, 231);
-        display: inline;
+        display: inline-block;
     }
 
     .row{
@@ -114,7 +114,7 @@
         background-color: rgb(31, 31, 145);
         height: 20vh;
         padding-top: 13vh;
-        padding-bottom:30vh;
+        padding-bottom:10vh;
         color: white;
     }
 
@@ -131,9 +131,18 @@
         width: 100%;
     }
 
+    .CYCYouthBoard p{
+        padding-left: 3vh;
+        padding-right: 3vh;
+        padding-top: 3vh;
+
+    }
+
     .CYCYouthBoard{
-        padding: 3vh;
-        padding-bottom: 5vh;
+        padding-top: 0vh;
+        padding-bottom:5vh;
+        background-color: rgb(231, 231, 231);
+        display: inline-block;
     }
 
     .containerMember{
