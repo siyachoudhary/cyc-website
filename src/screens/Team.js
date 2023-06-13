@@ -138,7 +138,7 @@ Arya is a junior at William Fremd High School in the Chicagoland area. She loves
               <div className='column' data-AOS="fade-up"><MemberCard memberName="Tiffany Xavier" role="Youth Leader" imgUrl="tiffany.webp" email=""  backPath="team#youthBoard" description="
 Jana is currently an aspiring senior in high school. When not at school, Jana loves learning all kinds of new things ranging from foreign languages to random skills like how to sew, or how plant propagation works.
               "></MemberCard></div>
-              <div className='column' data-AOS="fade-up"><MemberCard memberName="Aadhira Satheesh" imgUrl="aadhira.webp" role="Youth Leader" email="" backPath="team#youthBoard" description="
+              <div className='column' data-AOS="fade-up"><MemberCard memberName="Aadhira Satheesh" imgUrl="aadhira.webp" role="Student Ambassador" email="" backPath="team#youthBoard" description="
 Athena is a rising sophomore at Phillips Andover Academy. Passionate about making a difference in people's wellness and serving others, she joined the Health Occupations Students of America organization during her freshman year. Through her own research, she realized that technology has so much to offer to the field of healthcare, which motivated her to dive into biomedical engineering. To pursue her passion for biomedical engineering, she started to become actively involved in computer science, coding and programming during her leisure time, and she wishes to make computer science accessible to all people, regardless of gender.
               "></MemberCard></div>
               
