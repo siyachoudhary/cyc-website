@@ -1,27 +1,28 @@
 import React, {useEffect} from 'react';
 import AOS from "aos";
+import "./Team.css"
 import { useNavigate, useLocation } from "react-router-dom";
 
 export const TeamMember = () => {
     const navigate = useNavigate();
     const location = useLocation();
-  
-    const redirectToHome = () => {
-      navigate("/cyc-website/team");
-    };
+
+    console.log(location.state.memberImg)
   
     return (
-      <div className="container text-center py-5">
-        <h3> About Us Component </h3>
-        <h5> {location.state.memberName} </h5>
-        <p> {location.state.memberDetails} </p> 
-        <button
-          type="button"
-          className="btn btn-primary"
-          onClick={redirectToHome}
-        >
-          Back
-        </button>
+      <div className="containerMember">
+        <div className='memberDiv'>
+            <img src={process.env.PUBLIC_URL + "/teamImages/" + location.state.memberImg} className='memberImg'></img>
+
+            <div className='memberDescription'>
+                <h5 className='blueHeading2'> {location.state.memberName} </h5>
+                <p> {location.state.memberDescription} </p> 
+                <div><a href={"mailto:"+location.state.memberEmail} target='blank' className='memberEmail'>{location.state.memberEmail}</a></div>
+            </div>
+        </div>
+        
+        <div className='button-53'><a href="/cyc-website/team" className='scheduleBtnTxt'>BACK TO TEAM</a></div>
+
       </div>
     );
   };

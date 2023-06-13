@@ -13,7 +13,10 @@ function MemberCard(props) {
     return (
         <div className='userCard' onClick={()=>navigate("/cyc-website/teamMember", {
             state:{
-                memberName: props.memberName
+                memberName: props.memberName,
+                memberDescription: props.description,
+                memberImg: props.imgUrl,
+                memberEmail: props.email
             },
         })}>
             <img src={process.env.PUBLIC_URL + "/teamImages/" + props.imgUrl}></img>
