@@ -74,6 +74,7 @@
     color: #639BCB;
     font-family: 'Secular One', sans-serif;
     letter-spacing: .7vh;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 991px) {

@@ -43,6 +43,41 @@ export const Team = () => {
             "></MemberCard></div>
           </div>
 
+          <div className='row'>
+            <div className='column' data-AOS="fade-up"><MemberCard memberName="MADHAVI Ramakrishnan" imgUrl="madhavi.webp" email="madhavi@codeyourchances.com" description="
+            Madhavi graduated from the University of Illinois in Urbana-Champaign with a degree in Accounting and is a CPA. Madhavi currently works in Chicago as a Portfolio Analyst at Antares Capital. She has been involved with various nonprofits and volunteer work, such as after school mentorship, teaching basic financial literacy, and fundraising for children’s hospitals. She is a classically trained dancer in Bharatanatyam, an Indian dance form, and is passionate about South Indian culture and history."
+            ></MemberCard></div>
+            <div className='column' data-AOS="fade-up"><MemberCard memberName="molly liu" imgUrl="molly.webp" email="" description="
+            Molly is a master’s student in Data Science at Harvard University and earned a BA in Statistics and German from Northwestern University. Fascinated by the intersection of innovation and data, she co-founded a fintech startup, backed by Village Global, building income stabilization services for rideshare workers. She has worked on data science projects with companies spanning various industries: visual intelligence products at an early-stage mobility startup in Berlin, alarm prediction for Schneider Electric, and pest management for Wadhwani AI. She was awarded the DAAD fellowship in 2020 to conduct research on the optimization of solar energy distribution. Molly will be joining Temasek as an investment associate next summer, covering the technology and consumer sector and working closely with the investment data science team.            "></MemberCard></div>
+            <div className='column' data-AOS="fade-up"><MemberCard memberName="Harry gao" imgUrl="harry.webp" email="" description="
+            Harry is currently studying Computer Science and Neuroscience at Washington University in St. Louis. There, he works towards his goal of becoming a computer science researcher, using computer science to bring about positive change.
+
+            So far, he's worked as a teaching assistant and a Student Technology Coordinator, where he's gained skills in working and communicating with others, as well as technical skills in programming and working with technology. Currently, he is working as a student researcher, implementing a project and writing a paper on a method of using machine learning that can advance the field of medical imaging.            "></MemberCard></div>
+          </div>
+
+          <div className='row'>
+            <div className='column' data-AOS="fade-up"><MemberCard memberName="Alberta Yoo" imgUrl="alberta.webp" email="" description="
+            Alberta is currently pursuing a Computer Science degree at McCormick school of Engineering at Northwestern University. She has taken great interest in positively reflecting the pervasiveness of technology. Alberta participated at Serif Project, which created a class scheduler used by over 7,000 Northwestern students, and joined a research sponsored by NSF developing mobile devices to help children with disabilities. This summer, she mentored students from different states to compose music by using the Python programming language, a project called, 'TunePad.' She has also taught NU students a computer programming language class as a peer-mentor (TA).
+
+            Alebrta has played violin at Northwestern Philharmonia and other youth orchestras. She likes to play mobile games and loves hot cheetos. Alberta also works as an Executive Producer & DJ at K-Sound Radio show at WNUR 89.3 FM, and gets passionately involved with environment & youth economic empowerment campaigns.
+            "></MemberCard></div>
+            <div className='column' data-AOS="fade-up"><MemberCard memberName="Chetan Popli" imgUrl="chetan.webp" email="" description="
+            Chetan is currently pursuing a Bachelor’s degree in electronics and telecommunications, with honours in artificial intelligence and machine learning certified by IBM) at Mukesh Patel School of Technology Management and Engineering at NMIMS University, Mumbai. He has been a proactive member of various college committees and an integral part of the organizing committees for national events like Social Conclave 2019 and the first edition of India Automation Games 2020. Apart from his interest in coding, Chetan has worked as a DJ across a number of clubs in Mumbai and he thoroughly enjoys exploring underrated genres like techno, dubstep and lo-fi.            "></MemberCard></div>
+            <div className='column' data-AOS="fade-up"><MemberCard memberName="Ashvika Venkatesan" imgUrl="ashvika.webp" email="" description="
+            An aspiring software developer, Ashvika is currently pursuing a bachelor’s degree in Computer Science and Engineering at Saveetha School of Engineering, Chennai. Always eager to meet new people and explore any opportunities that come her way, she lives by the phrase ‘There is no failure except in no longer trying’. She believes learning is a continuous process and is always open to learning. She loves working on aptitude problems, going on treks, writing and dogs. Latest addition to her learning mission: Learning French!
+            "></MemberCard></div>
+          </div>
+
+          <div className='row'>
+            <div className='column' data-AOS="fade-up"><MemberCard memberName="Afreen Akthar" imgUrl="afreen.webp" email="" description="
+            Afreen is a web application developer with a bachelor's degree in Computer Science from Madras University in Chennai. As a coding instructor, Afreen is passionate about building a strong community for women in tech. She loves programming, designing, travelling and is fascinated by technological trends. As a National Scouter in India, she has been involved with several nonprofits and works to spread awareness for sustainable development. When not behind the computer, Afreen also enjoys trekking, camping and rappelling. She believes that tech is the way to go and every girl should have a chance at it!
+            "></MemberCard></div>
+            <div className='column' data-AOS="fade-up"><MemberCard memberName="Braden Kobeski" imgUrl="braden.webp" email="" description="
+            Besides a good whiff of a Yankee Candle, there's nothing Braden enjoys more than learning new skills! After graduating with a degree in Strategic Communications from the University of Missouri, Braden continues to use his free time to take online courses to enhance his knowledge of Motion Graphics, Data Analysis, Social Media Strategy, Online Marketing, and surely many more topics to come.
+            "></MemberCard></div>
+            <div className='column' data-AOS="fade-up"><MemberCard memberName="Parmis Mokhari-Dizaji" imgUrl="parmis.webp" email="" description="
+            Parmis is a student at Phillips Exeter Academy. She is passionate about innovative design and advocacy as means to empower and help vulnerable individuals. This passion has driven her to be actively involved in Model UN and Debate, and spending her free time being a Maker. She has also been involved with various volunteer work and fundraising efforts, most of which have been focused on education and creativity.            "></MemberCard></div>
+          </div>
         </div>
 
         <div className='mainTeam2' id='youthBoard'>

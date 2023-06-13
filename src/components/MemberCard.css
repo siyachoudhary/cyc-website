@@ -11,12 +11,12 @@
 .userCard h1{
     font-family: 'Maven Pro', sans-serif;
     font-weight: 600;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     letter-spacing: 1vh;
     margin: 2vh;
     margin-left: auto;
     margin-right: auto;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .userCard img{
@@ -38,6 +38,6 @@
         margin: 2vh;
         margin-left: auto;
         margin-right: auto;
-        text-transform: capitalize;
+        text-transform: uppercase;
     }
 }
