@@ -17,9 +17,28 @@ export const MyNav = () => {
 
   const [y, setY] = useState(0);
 
+  const [show, setShow] = useState(false);
+  const showDropdown = (e)=>{
+      setShow(!show);
+  }
+  const hideDropdown = e => {
+      setShow(false);
+  }
+
+  const checkOpen = e => {
+    if(window.innerWidth<991){
+      if(show){
+        hideDropdown()
+      }else{
+        showDropdown()
+      }
+    }
+  }
+
   const handleNavigation = (e) => {
 
     const window = e.currentTarget;
+    
 
     if (y > window.scrollY || y < window.scrollY) {
 
@@ -124,7 +143,14 @@ export const MyNav = () => {
                 <CustomLink href = {"/cyc-website/about"}>About</CustomLink>
                 <CustomLink href = {"/cyc-website/apps"}>CYC Apps</CustomLink>
                 {/* <CustomLink href = {"/cyc-website/team"}>Team</CustomLink> */}
-                <NavDropdown title="Team" id="collasible-nav-dropdown" className={"navItem"} to="/cyc-website/team">
+                <NavDropdown show={show}
+                  onMouseEnter={showDropdown} 
+                  onMouseLeave={hideDropdown} 
+                  onClick={checkOpen}
+                  title="Team" id="collasible-nav-dropdown" 
+                  className={"navItem"} 
+                  to="/cyc-website/team">
+
                   <NavDropdown.Item href="/cyc-website/team">The CYC Team</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="/cyc-website/team#youthBoard" smooth>Youth Leadership Board</NavDropdown.Item>

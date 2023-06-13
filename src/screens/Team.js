@@ -7,7 +7,7 @@ import "aos/dist/aos.css"
 
 export const Team = () => {
   useEffect(()=>{
-    AOS.init({duration: 100, easing:"ease-in-out"});
+    AOS.init({duration: 500, easing:"ease-in-out"});
   }, []);
 
   return (

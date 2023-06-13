@@ -117,11 +117,6 @@
     width: calc(7vh + 1vw);
     height: calc(7vh + 1vw);
     z-index: 6;
-  /* 
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out; */
       
   }
 
@@ -129,7 +124,7 @@
 
     margin-left: auto;
     margin-right: 1vh;
-    font-size: 1.5vh;
+    font-size: 1.75vh;
     width: fit-content;
   
   }
@@ -137,7 +132,7 @@
   .navbar-nav .nav-link{
     margin-left: auto;
     margin-right: 1vh;
-    font-size: 2vh;
+    font-size: 2.5vh;
     width: fit-content;
   }
 
