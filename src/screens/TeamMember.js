@@ -23,7 +23,7 @@ export const TeamMember = () => {
             </div>
         </div>
         
-        <div className='button-53'><a href="/cyc-website/team" className='scheduleBtnTxt'>BACK TO TEAM</a></div>
+        <div className='button-53'><a href={"/cyc-website/"+location.state.backPath} className='scheduleBtnTxt'>BACK TO TEAM</a></div>
 
       </div>
     );

@@ -12,6 +12,15 @@
     padding-top: 8vh;
     padding-bottom:10vh;
     color: white;
+    margin-bottom: 3vh;
+}
+
+.aboutYLB{
+    font-size: 2vh;
+    margin-right: 2vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .CYCMainBoard{
@@ -19,6 +28,10 @@
     padding-bottom:5vh;
     background-color: rgb(231, 231, 231);
     /* height: auto; */
+}
+
+.CYCYouthBoard{
+    padding-bottom: 10vh;
 }
 
 .row{
@@ -101,7 +114,7 @@
         background-color: rgb(31, 31, 145);
         height: 20vh;
         padding-top: 13vh;
-        padding-bottom:10vh;
+        padding-bottom:30vh;
         color: white;
     }
 
@@ -111,33 +124,42 @@
         padding-top: 5vh;
         padding-bottom:10vh;
         color: white;
+        margin-bottom: 0vh;
     }
 
+    .aboutYLB{
+        width: 100%;
+    }
 
-.containerMember{
-    margin-top: 10vh;
-}
+    .CYCYouthBoard{
+        padding: 3vh;
+        padding-bottom: 5vh;
+    }
 
-.memberDiv{
-    display: inline-block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5vh;
-    padding: 3vh;
-}
+    .containerMember{
+        margin-top: 10vh;
+    }
 
-.memberImg{
-    width: 100%; height: auto; object-fit: cover;
-    margin-bottom: 5vh;
-}
+    .memberDiv{
+        display: inline-block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vh;
+        padding: 3vh;
+    }
 
-.memberDescription{
-    margin: 0;
-    text-align: center;
-}
+    .memberImg{
+        width: 100%; height: auto; object-fit: cover;
+        margin-bottom: 5vh;
+    }
 
-.memberEmail{
-    color: black;
-}
+    .memberDescription{
+        margin: 0;
+        text-align: center;
+    }
+
+    .memberEmail{
+        color: black;
+    }
 }
