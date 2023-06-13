@@ -3,7 +3,7 @@
 
 .myNavbar {
   padding: 1.5vh 0 1.5vh 0;
-  z-index: 5;
+  z-index: 25;
   position: fixed;
   width: 100hw;
   background-image: linear-gradient(rgb(29, 31, 32, .85), rgb(29, 31, 32, 0));
