@@ -139,9 +139,9 @@ export const MyNav = () => {
 
               <Nav className = "links">
 
-                <CustomLink href = {"/cyc-website/"}>Home</CustomLink>
-                <CustomLink href = {"/cyc-website/about"}>About</CustomLink>
-                <CustomLink href = {"/cyc-website/apps"}>CYC Apps</CustomLink>
+                <CustomLink href = {"/#/cyc-website/"}>Home</CustomLink>
+                <CustomLink href = {"/#/cyc-website/about"}>About</CustomLink>
+                <CustomLink href = {"/#/cyc-website/apps"}>CYC Apps</CustomLink>
                 {/* <CustomLink href = {"/cyc-website/team"}>Team</CustomLink> */}
                 <NavDropdown show={show}
                   onMouseEnter={showDropdown} 

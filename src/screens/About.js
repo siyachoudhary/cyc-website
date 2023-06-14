@@ -36,7 +36,7 @@ export const About = () => {
         <p className='aboutInfoSmall' data-AOS="fade-up">So much of the world around us is run by technology. If women are not contributing to these systems and products, bias becomes imbedded in the algorithms, data sets and designs that influence our future.</p>
         <div className='aboutInfo NYTimes' data-AOS="fade-up">
           <p className='NYTimesData'>"Many artificial intelligence technologies, like face-recognition services and conversational systems, are designed to learn from large amounts of data, such as thousands of photos of faces. The biases of researchers can easily be introduced into the technology, reinforcing the importance of diversity among the people working on it."</p>
-          <p className='NYTimesSign'>~ Cade Metz, The New York Times</p>
+          <p className='NYTimesSign'>- Cade Metz, The New York Times</p>
         </div>
 
         <h2 className='headingOrange'>WHAT CYC IS DOING TO HELP</h2>

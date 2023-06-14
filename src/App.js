@@ -3,7 +3,7 @@ import './App.css';
 import { MyNav } from './components/MyNav';
 import { Footer } from './components/Footer';
 
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes} from 'react-router-dom';
 import {HomePage} from "./screens/HomePage"
 import {About} from "./screens/About"
 import {Apps} from "./screens/Apps"
@@ -17,8 +17,8 @@ import { Apply } from './screens/Apply';
 function App() {
   return (
     <div className="App">
-      <MyNav/>
-        {/* <BrowserRouter> */}
+      <HashRouter>
+        <MyNav/>
             <Routes>
                 <Route path='/cyc-website/' element={<HomePage/>}></Route>
                 <Route path='/cyc-website/about/' element={<About/>}></Route>
@@ -30,8 +30,9 @@ function App() {
                 <Route path='/cyc-website/apply/' element={<Apply/>}></Route>
                 <Route path='/cyc-website/privacy/' element={<Privacy/>}></Route>
             </Routes>
-          {/* </BrowserRouter> */}
-        <Footer/>
+          
+          <Footer/>
+        </HashRouter>
     </div>
   );
 }
