@@ -17,7 +17,7 @@ import { Apply } from './screens/Apply';
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         <MyNav/>
             <Routes>
                 <Route path='/cyc-website/' element={<HomePage/>}></Route>
@@ -32,7 +32,7 @@ function App() {
             </Routes>
           
           <Footer/>
-        </HashRouter>
+        </BrowserRouter>
     </div>
   );
 }
